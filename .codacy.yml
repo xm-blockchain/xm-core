@@ -1,0 +1,16 @@
+---
+exclude_paths:
+  - 'src/xm/generated/*.py'
+  - 'src/xm/protos/**'
+  - 'tests/data/**'
+  - 'tools/**'
+  - 'docs/**'
+  - 'versioneer.py'
+  - 'setup.py'
+  - 'src/xm/_version.py'
+  - 'src/xm/measure.py'
+  - 'start_xm.py'
+engines:
+  duplication:
+    exclude_paths:
+      - 'tests/**'
